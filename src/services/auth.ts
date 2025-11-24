@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://backed-kk.vercel.app/api/v1/auth';
+const API_URL = 'https://backed-kk.onrender.com/api/v1/auth';
 
 export interface LoginData {
   email: string;

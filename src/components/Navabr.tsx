@@ -2,9 +2,9 @@ import React, {
   useEffect,
   useRef,
   useState,
-  KeyboardEvent,
-  MouseEvent,
-  FormEvent,
+  type KeyboardEvent,
+  type MouseEvent,
+  type FormEvent,
 } from 'react';
 
 interface MenuItem {

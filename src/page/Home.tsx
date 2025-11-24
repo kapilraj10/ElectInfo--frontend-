@@ -38,7 +38,7 @@ const Home = () => {
 
   const fetchData = async () => {
     try {
-      const API_URL = 'https://backed-kk.vercel.app/api/v1/admin';
+      const API_URL = 'https://backed-kk.onrender.com/api/v1/admin';
       const [manifestsRes, provincesRes, districtsRes] = await Promise.all([
         axios.get(`${API_URL}/manifests`),
         axios.get(`${API_URL}/provinces`),

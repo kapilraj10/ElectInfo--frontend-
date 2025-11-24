@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://elect-info-backend.vercel.app/api/v1/auth';
+const API_URL = 'https://elect-info-backend-ygvc.vercel.app/api/v1/auth';
 
 export interface LoginData {
   email: string;

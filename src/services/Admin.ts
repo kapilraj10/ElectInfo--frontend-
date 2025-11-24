@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://elect-info-backend-git-main-kapils-projects-1d91d99d.vercel.app/api/v1/admin';
+const API_URL = 'https://elect-info-backend.vercel.app/api/v1/admin';
 
 const getAuthHeaders = () => {
   const token = localStorage.getItem('token');
